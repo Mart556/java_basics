@@ -10,5 +10,7 @@ public class Exercise10 {
         double x = 2 * Math.PI * radius;
 
         System.out.print("Circumference of the circle: " + x);
+
+        reader.close();
     }
 }

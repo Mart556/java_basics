@@ -12,5 +12,7 @@ public class Exercise16 {
         } else {
             System.out.println("Your number is odd!");
         }
+
+        reader.close();
     }
 }

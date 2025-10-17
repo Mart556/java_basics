@@ -11,5 +11,7 @@ public class Exercise8 {
         int y = Integer.parseInt(reader.nextLine());
 
         System.out.print("Sum of numbers: " + (x + y));
+
+        reader.close();
     }
 }

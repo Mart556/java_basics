@@ -12,5 +12,7 @@ public class Exercise14 {
         } else {
             System.out.println("Your number is negative!");
         }
+
+        reader.close();
     }
 }

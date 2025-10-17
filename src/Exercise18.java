@@ -10,6 +10,7 @@ public class Exercise18 {
 
         if (points < 0 || points > 60) {
             System.out.println("Invalid points. Please enter a value between 0 and 60.");
+            scanner.close();
             return;
         }
 
@@ -32,5 +33,7 @@ public class Exercise18 {
             grade = 5;
             System.out.println("Grade: " + grade);
         }
+
+        scanner.close();
     }
 }

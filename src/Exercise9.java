@@ -11,5 +11,7 @@ public class Exercise9 {
         int y = Integer.parseInt(reader.nextLine());
 
         System.out.print("Division of numbers: " + (x / y));
+
+        reader.close();
     }
 }
